@@ -1,0 +1,15 @@
+API
+	国内版 GET https://cn.bing.com/
+	国际版 GET https://cn.bing.com/?ensearch=1&FORM=BEHPTB
+	返回数据：HTML
+
+
+标签中的数据
+	<meta property="og:title" content="冬天的乐趣"/>
+
+	<link rel="preload" href="https://s.cn.bing.net/th?id=OHR.QuebecFrontenac_ZH-CN9519096458_1920x1080.jpg&amp;rf=LaDigue_1920x1080.jpg&amp;qlt=50" as="image" id="preloadBg"/>
+
+
+提取数据
+	标题 //meta[@property="og:title"]/@content
+	图片 //link[@id="preloadBg"]/@href

@@ -1,0 +1,8 @@
+# save_files
+/**/cloudmusic/*
+
+# python_temp_files
+/**/__pycache__/*
+
+# pycharm
+/**/.idea/*
